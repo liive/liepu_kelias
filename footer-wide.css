@@ -1,0 +1,8 @@
+body[data-theme] footer.contact{width:100%;max-width:none;margin:0;padding:64px 5% 0;box-sizing:border-box}body[data-theme] footer.contact .contact-grid,body[data-theme] footer.contact .bottom{width:100%;max-width:none;margin-inline:auto}body[data-theme] footer.contact .contact-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,6vw,120px)}body[data-theme] footer.contact .details,body[data-theme] footer.contact .socials{max-width:none;width:100%}body[data-theme] footer.contact .bottom{padding-block:24px;margin-top:40px}@media(max-width:760px){body[data-theme] footer.contact{padding:38px 5% 0}body[data-theme] footer.contact .contact-grid{grid-template-columns:1fr;gap:28px}body[data-theme] footer.contact .bottom{margin-top:28px}}
+/* Readable contact typography on desktop and mobile. */
+body[data-theme] footer.contact h2{font-size:clamp(32px,2.8vw,42px);line-height:1.15}
+body[data-theme] footer.contact .detail{font-size:clamp(20px,1.65vw,23px);line-height:1.45}
+body[data-theme] footer.contact .detail small{font-size:14px;line-height:1.5;margin-bottom:8px}
+body[data-theme] footer.contact .socials a{font-size:19px;line-height:1.5}
+body[data-theme] footer.contact .bottom{font-size:16px;line-height:1.5}
+@media(max-width:760px){body[data-theme] footer.contact h2{font-size:30px}body[data-theme] footer.contact .detail{font-size:20px}body[data-theme] footer.contact .socials a{font-size:18px}body[data-theme] footer.contact .bottom{font-size:15px}}
